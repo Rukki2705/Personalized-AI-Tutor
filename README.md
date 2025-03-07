@@ -37,16 +37,38 @@ Provides an easy-to-use web interface for interaction.
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/personalized-ai-tutor.git
+git clone https://github.com/Rukki2705/personalized-ai-tutor.git
 cd personalized-ai-tutor
+```
+## 📌 Usage
 
-pip install -r requirements.txt
+### **Step 1: Scrape and Index Data**
 
-Dependencies:
+#### Run the data collection script:
+```bash
+python document_collection.py
+```
 
-faiss-cpu
-sentence-transformers
-ollama
-beautifulsoup4
-nltk
-streamlit
+#### Create FAISS index:
+```bash
+python faiss_indexing.py
+```
+### **Step 2: Start the Tutor**
+
+#### Run the Streamlit UI
+```bash
+streamlit run UI.py
+```
+#### **Use the Q&A Section:**
+- ✅ **Select a subject**
+- ✅ **Ask a question**
+- ✅ **Get AI-generated responses**
+
+#### **Take a Quiz:**
+- ✅ **Select a subject**
+- ✅ **Enter a topic**
+- ✅ **Generate & answer multiple-choice questions**
+
+
+
+
