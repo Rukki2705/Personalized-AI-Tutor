@@ -1,0 +1,8 @@
+requests
+beautifulsoup4 
+pandas 
+nltk 
+faiss-cpu 
+sentence-transformers 
+ollama 
+streamlit 
