@@ -39,3 +39,14 @@ Provides an easy-to-use web interface for interaction.
 ```bash
 git clone https://github.com/yourusername/personalized-ai-tutor.git
 cd personalized-ai-tutor
+
+pip install -r requirements.txt
+
+Dependencies:
+
+faiss-cpu
+sentence-transformers
+ollama
+beautifulsoup4
+nltk
+streamlit
